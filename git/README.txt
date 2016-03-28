@@ -25,7 +25,7 @@ git push -u origin master
 git push origin master //之后用这个命令就可以push
 
 //从远程仓库克隆文件到本地，也可以用https://github.com/Eisen7/git.git
-git clone git@github.com:Eisen7/Eisen7.git
+git clone git@github.com:Eisen7/Format.git
 
 创建并切换到dev分支
 git checkout -b dev
