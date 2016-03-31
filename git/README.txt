@@ -20,7 +20,8 @@ git rm README.txt //删除
 ssh-keygen -t rsa -C "youremail@example.com"
 //将本地仓库与GitHub仓库相关联
 git remote add origin git@github.com:Eisen7/git.git
-//首次push 要加 -u 参数 Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令
+//首次push 要加 -u 参数 Git不但会把本地的master分支内容推送的远程新的master分支，
+还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令
 git push -u origin master
 git push origin master //之后用这个命令就可以push
 
@@ -87,7 +88,8 @@ git add -f abc.class //强制添加abc.class
 git check-ignore //检查gitignore文件哪里写错
 
 
-git config --global alias.st status //之后st就表示status global表示用户配置文件在用户主目录下 .gitconfig 去掉表示当前git项目配置文件 .git/config
+git config --global alias.st status
+之后st就表示status global表示用户配置文件在用户主目录下 .gitconfig 去掉表示当前git项目配置文件 .git/config
 
 
 创建git服务器
