@@ -92,7 +92,7 @@ git config --global alias.st status
 之后st就表示status global表示用户配置文件在用户主目录下 .gitconfig 去掉表示当前git项目配置文件 .git/config
 
 
-创建git服务器
+Ubuntu创建git服务器
 第一步，安装git：
 $ sudo apt-get install git
 第二步，创建一个git用户，用来运行git服务：
