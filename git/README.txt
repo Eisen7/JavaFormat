@@ -107,8 +107,7 @@ $ sudo chown -R git:git sample.git
 第五步，禁用shell登录：
 出于安全考虑，第二步创建的git用户不允许登录shell，这可以通过编辑/etc/passwd文件完成。找到类似下面的一行：
 git:x:1001:1001:,,,:/home/git:/bin/bash
-改为：
-git:x:1001:1001:,,,:/home/git:/usr/bin/git-shell
+改为：git:x:1001:1001:,,,:/home/git:/usr/bin/git-shell
 这样，git用户可以正常通过ssh使用git，但无法登录shell，因为我们为git用户指定的git-shell每次一登录就自动退出。
 第六步，克隆远程仓库：
 现在，可以通过git clone命令克隆远程仓库了，在各自的电脑上运行：
