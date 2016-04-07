@@ -114,3 +114,5 @@ git:x:1001:1001:,,,:/home/git:/bin/bash
 $ git clone git@server:/srv/sample.git
 Cloning into 'sample'...
 warning: You appear to have cloned an empty repository.
+
+Centos
