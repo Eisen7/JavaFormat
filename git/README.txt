@@ -115,4 +115,4 @@ $ git clone git@server:/srv/sample.git
 Cloning into 'sample'...
 warning: You appear to have cloned an empty repository.
 
-Centos
+Centos安装
