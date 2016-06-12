@@ -6,3 +6,5 @@ Format
     short 两个字节
     int 四个字节
     long 八个字节
+
+字符型
