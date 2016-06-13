@@ -8,3 +8,4 @@ Format
     long 八个字节
 
 字符型
+    char 两个字节
