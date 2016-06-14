@@ -9,3 +9,5 @@ Format
 
 字符型
     char 两个字节
+
+String中
