@@ -12,3 +12,4 @@ Format
 
 String中split(" ")分割字符
 string.toCharArray();将字符串转换为字符数组
+String.valueOf(String);将字char转换为String
