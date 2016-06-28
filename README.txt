@@ -14,3 +14,6 @@ String中split(" ")分割字符
 string.toCharArray();将字符串转换为字符数组
 String.valueOf(String);将字char转换为String
 string.charAt() 获取string中第几个位置的字符
+
+
+重载：函数方法名相同参数不同
