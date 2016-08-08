@@ -26,3 +26,4 @@ JVM把内存分为 栈 堆 方法区 本地方法区 寄存器
     不能被单独调用
 
 abstract方法不能写{}！
+abstract不能与final static private同用
