@@ -27,3 +27,5 @@ JVM把内存分为 栈 堆 方法区 本地方法区 寄存器
 
 abstract方法不能写{}！
 abstract不能与final static private同用
+
+父类就是超类 去他妈的叫父类就行了mb
