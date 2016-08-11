@@ -31,3 +31,5 @@ abstract不能与final static private同用
 父类就是超类 去他妈的叫父类就行了mb
 
 wait notify必须在获得锁的时候用 sleep不用
+
+socket网络编程
