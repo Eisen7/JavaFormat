@@ -34,3 +34,6 @@ wait notify必须在获得锁的时候用 sleep不用
 
 socket网络编程
  多线程实现发送接收监听端口
+
+TCP三次握手
+    client SYN=1 random seq=j 给server
