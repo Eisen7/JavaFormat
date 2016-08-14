@@ -37,3 +37,4 @@ socket网络编程
 
 TCP三次握手
     client SYN=1 random seq=j 给server
+    server SYN=ACK=1 ack=j+1 random seq=k
