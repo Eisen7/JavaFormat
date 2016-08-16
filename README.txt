@@ -39,3 +39,5 @@ TCP三次握手
     client SYN=1 random seq=j 给server
     server SYN=ACK=1 ack=j+1 random seq=k
     client ack=?j+1 ACK?=1 ack=k+1 server ack=?k+1 ACK=?1
+
+constarint student_user_id_fk foreignkey(user_id) references user(id);
