@@ -43,3 +43,6 @@ TCP三次握手
 constarint student_user_id_fk foreignkey(user_id) references user(id);
 
 select * from table1,table2 where table1.id=table2.t1_id
+
+优化：
+    开启查询缓存
