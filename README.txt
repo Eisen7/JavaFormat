@@ -47,3 +47,4 @@ select * from table1,table2 where table1.id=table2.t1_id
 优化：
     开启查询缓存
     explain 看查了几行
+    limit1
