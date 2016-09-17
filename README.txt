@@ -49,3 +49,4 @@ select * from table1,table2 where table1.id=table2.t1_id
     explain 看查了几行
     limit1
     避免select*
+    性别国家用枚举
