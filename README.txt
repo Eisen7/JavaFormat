@@ -52,3 +52,4 @@ select * from table1,table2 where table1.id=table2.t1_id
     性别国家用枚举
     固定长度的表查询更快
     垂直分割
+    拆分大sql语句
