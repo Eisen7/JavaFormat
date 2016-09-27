@@ -55,3 +55,4 @@ select * from table1,table2 where table1.id=table2.t1_id
     拆分大sql语句
 
 数据库四大特性：原子性 一致性 隔离性 持久性
+隔离级别：都未提交 都提交 可重复的 序列化
