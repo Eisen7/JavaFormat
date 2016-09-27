@@ -53,3 +53,5 @@ select * from table1,table2 where table1.id=table2.t1_id
     固定长度的表查询更快
     垂直分割
     拆分大sql语句
+
+数据库四大特性：原子性 一致性 隔离性 持久性
