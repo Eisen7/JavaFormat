@@ -58,3 +58,5 @@ select * from table1,table2 where table1.id=table2.t1_id
 隔离级别：都未提交 都提交 可重复的 序列化
 
 Hibernate是一个ORM关系型映射封装了JDBC的持久层框架
+
+Spring事务管理transcationManager标签 requird supports
