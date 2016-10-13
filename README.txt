@@ -60,3 +60,6 @@ select * from table1,table2 where table1.id=table2.t1_id
 Hibernate是一个ORM关系型映射封装了JDBC的持久层框架
 
 Spring事务管理transcationManager标签 requird supports
+
+SpringMVC运行原理：
+    客户端请求提交到DispatcherServlet
