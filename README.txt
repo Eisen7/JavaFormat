@@ -63,3 +63,4 @@ Spring事务管理transcationManager标签 requird supports
 
 SpringMVC运行原理：
     客户端请求提交到DispatcherServlet
+    DispatcherServlet查HanderMapping
