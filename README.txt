@@ -63,4 +63,6 @@ Spring事务管理transcationManager标签 requird supports
 
 SpringMVC运行原理：
     客户端请求提交到DispatcherServlet
-    DispatcherServlet查HanderMapping
+    DispatcherServlet查HanderMapping找到需要调用的Controller
+    DispatcherServlet将请求给Controller 处理完后返回ModelAndView
+    DispatcherServlet查询ViewResoler视图解析器返回指定视图
