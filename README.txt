@@ -66,3 +66,5 @@ SpringMVC运行原理：
     DispatcherServlet查HanderMapping找到需要调用的Controller
     DispatcherServlet将请求给Controller 处理完后返回ModelAndView
     DispatcherServlet查询ViewResoler视图解析器返回指定视图
+
+model.addAttribute("key","value")
