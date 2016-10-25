@@ -69,4 +69,3 @@ SpringMVC运行原理：
 
 model.addAttribute("key","value")
 
-String
