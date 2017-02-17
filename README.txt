@@ -68,3 +68,4 @@ SpringMVC运行原理：
     DispatcherServlet查询ViewResoler视图解析器返回指定视图
 
 model.addAttribute("key","value")
+1
