@@ -55,18 +55,3 @@ select * from table1,table2 where table1.id=table2.t1_id
     拆分大sql语句
 
 数据库四大特性：原子性 一致性 隔离性 持久性
-隔离级别：都未提交 都提交 可重复的 序列化
-
-Hibernate是一个ORM关系型映射封装了JDBC的持久层框架
-
-Spring事务管理transcationManager标签 requird supports
-
-SpringMVC运行原理：
-    客户端请求提交到DispatcherServlet
-    DispatcherServlet查HanderMapping找到需要调用的Controller
-    DispatcherServlet将请求给Controller 处理完后返回ModelAndView
-    DispatcherServlet查询ViewResoler视图解析器返回指定视图
-
-model.addAttribute("key","value")
-1
-1
