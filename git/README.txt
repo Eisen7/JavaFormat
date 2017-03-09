@@ -19,7 +19,7 @@ git rm README.txt //删除
 //创建公钥私钥
 ssh-keygen -t rsa -C "youremail@example.com"
 //将本地仓库与GitHub仓库相关联
-git remote add origin git@github.com:Eisen7/git.git
+git remote add origin git@github.com:Eisen7/Format.git
 //首次push 要加 -u 参数 Git不但会把本地的master分支内容推送的远程新的master分支，
 还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令
 git push -u origin master
