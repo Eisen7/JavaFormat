@@ -1,3 +1,6 @@
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
 git init //初始化仓库
 git add README.txt //添加README.txt文件到git仓库 提交修改也要add一下
 git status //查看仓库状态
