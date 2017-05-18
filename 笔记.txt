@@ -1,0 +1,38 @@
+IMP-00037: 未知字符集标记
+IMP-00000: 未成功终止导入
+
+有些dmp是sql插出插入导入 用sqlplus sql导入就可以了
+
+cxf的形参不能是接口类型 cxf不支持解析HashMap
+
+获取绝对路径String path = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+字符串切割String.substring(int1,int2)
+
+Weblogic集群部署
+	http://blog.csdn.net/panda7788/article/details/51375550
+	http://www.cnblogs.com/HondaHsu/p/4267972.html
+	启动子节点 startManagedWebLogic.cmd 子节点服务器名
+t3://localhost:主节点端口
+Weblogic启动输入密码秒退
+	在set JAVA_OPTIONS= -Dweblogic.ProductionModeEnabled=true
+%JAVA_OPTIONS%后
+	加set JAVA_OPTIONS= -Dweblogic.management.allowPasswordEcho=true %JAVA_OPTIONS%
+	http://www.blogjava.net/shikifuchi/archive/2012/08/30/386628.html
+
+	nginx配置文件
+		http://www.cnblogs.com/sunxucool/p/3225818.html
+		http://www.nginx.cn/76.html
+
+weblogic一个域包含多个服务器
+weblogic集群配置多点传送
+
+try catch finally
+如果捕获了异常 代码还会继续往下执行
+如果catch中有return 代码会执行到return前执行finally再执行finally
+try catch finally下面的代码就不再执行
+
+
+List里面放的只是引用,如果地址内的对象改变,那么List里面的东西肯定改变啊
+
+SpringMVC可以统一处理异常
+	http://blog.csdn.net/xiao__gui/article/details/45422649
