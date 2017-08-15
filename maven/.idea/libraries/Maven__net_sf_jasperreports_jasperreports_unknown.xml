@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.sf.jasperreports:jasperreports:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/unknown/jasperreports-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/unknown/jasperreports-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/unknown/jasperreports-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

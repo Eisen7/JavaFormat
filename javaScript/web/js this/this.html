@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="text/javascript">
+
+    function getId() {
+        alert(this.id);
+    };
+
+    var person = new Object();
+    person.id = "777";
+    person.getId = getId;
+
+    var person2 = new Object();
+    person2.id = "7";
+    person2.getId = getId;
+
+    person.getId();
+    person2.getId();
+
+</script>
+<body>
+<h4>
+    在 ECMAScript 中，要掌握的最重要的概念之一是关键字 this 的用法，它用在对象的方法中。关键字 this 总是指向调用该方法的对象<br>
+</h4>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        alert("Hello World");
+        document.write("<h1>h1</h1>")
+        function test() {
+            document.getElementById("p").innerHTML = "onclick";
+        }
+    </script>
+</head>
+<body>
+<p id="p">p</p>
+<button type="button" id="button" onclick="test()">button</button>
+<button type="button" id="button1" onclick="test1()">button1</button>
+<script>
+    function test1() {
+        document.write("如果在文档已完成加载后执行 document.write，整个 HTML 页面将被覆盖")
+    }
+//    window.onload=function () {
+//        document.write("如果在文档已完成加载后执行 document.write，整个 HTML 页面将被覆盖");
+//    }
+</script>
+</body>
+</html>

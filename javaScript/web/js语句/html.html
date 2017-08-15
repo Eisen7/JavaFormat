@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //        alert("Hello\
+        //World");
+        var x = 1;
+        var y = 2;
+        var z = x + y;
+        //        alert(z);
+        function h4button() {
+            document.getElementById("h4").innerHTML = z;
+        }
+    </script>
+</head>
+<body>
+<h4 id="h4">
+    与代数一样，JavaScript 变量可用于存放值（比如 x=2）和表达式（比如 z=x+y）。<br>
+    变量可以使用短名称（比如 x 和 y），也可以使用描述性更好的名称（比如 age, sum, totalvolume）。<br>
+    变量必须以字母开头<br>
+    变量也能以 $ 和 _ 符号开头（不过我们不推荐这么做）<br>
+    变量名称对大小写敏感（y 和 Y 是不同的变量）<br>
+    <button type="button" onclick="h4button()">h4</button>
+</h4>
+</body>
+</html>
